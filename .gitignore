@@ -1,0 +1,8 @@
+*.pyc
+.vscode
+build
+partition.egg-info
+dist
+.tox
+.coverage
+htmlcov
