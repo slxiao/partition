@@ -1,9 +1,9 @@
 import sys
 
-import argument
-import greedy 
-import kk
-import dp
+from . import argument
+from . import greedy 
+from . import kk
+from . import dp
 from . import __version__
 
 def partition(args=None):
