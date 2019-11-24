@@ -19,7 +19,7 @@
 </p>
 
 # partition
-```partiton` is a Python algorithm library which provides efficient algorithms for the [number partition problem](https://en.wikipedia.org/wiki/Partition_problem). You can also use it from shell command. These algorithms have many applications. One typical one is for [parallel software testing](https://mp.weixin.qq.com/s/oq3-mJ7cA6f_lK0SviMVyw). Currently, the following three algorithms are supported:
+`partiton` is a Python algorithm library which provides efficient algorithms for the [number partition problem](https://en.wikipedia.org/wiki/Partition_problem). You can also use it from shell command. These algorithms have many applications. One typical one is for [parallel software testing](https://mp.weixin.qq.com/s/oq3-mJ7cA6f_lK0SviMVyw). Currently, the following three algorithms are supported:
 - greedy algorithm, which is a benchmark algorithm with simple login
 - differencing algorithm, a.k.a. Karmarkar–Karp(KK) algorithm
 - dynamic programming(DP) algorithm, which is optimal for scenarios where the size of integers is not too large

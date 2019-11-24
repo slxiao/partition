@@ -1,10 +1,10 @@
 """partition: Python number partition algorithm library
 """
-
+import io
 from setuptools import setup
 
 
-version = "0.1.0"
+version = "0.1.2"
 
 setup(
     include_package_data=True,
@@ -20,6 +20,8 @@ setup(
     python_requires='>=2.6, !=3.0.*, !=3.1.*, !=3.2.*, <4',
     license='MIT',
     author='slxiao',
+    long_description=io.open('README.md', encoding='utf8').read(),
+    long_description_content_type='text/markdown',
     author_email='shliangxiao@gmail.com',
     description='Python number partition algorithm library',
     classifiers=[
